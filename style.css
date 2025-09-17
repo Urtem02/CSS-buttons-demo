@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; 
+}
+h1{
+    margin: 5px;
+}
+.btn{
+    background-color: black;
+    color: whitesmoke;
+    border: 3px solid grey;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: x-large;
+}
+.first_btn:hover{
+    background-color: yellow;
+    color: black;
+    border: 3px solid rgb(255, 218, 139);
+}
+.second_btn:active{
+    background-color: red;
+    color: black;
+    border: 3px solid lightcoral;
+}
+.third_btn:focus{
+  outline: 10px solid #22c55e;
+  outline-offset: 2px;
+  color: #22c55e;
+}
+.fourth_btn:disabled {
+  background-color: #9ca3af;
+  color: #e5e7eb;       
+  border: 3px solid #d1d5db;
+  cursor: not-allowed;     
+  pointer-events: none;  
+}
+.fifth_btn:hover{
+    background-color: pink;
+    border-color: darkorchid;
+    transition: 0.4s ease, color 0.4s ease;
+}
